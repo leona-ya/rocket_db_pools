@@ -59,7 +59,7 @@ optional = true
 
 [dependencies.sqlx]
 version = "0.6"
-default-features = false
+default-features = true
 features = ["runtime-tokio-rustls"]
 optional = true
 
