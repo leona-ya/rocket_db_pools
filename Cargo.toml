@@ -60,7 +60,7 @@ optional = true
 [dependencies.sqlx]
 version = "0.6"
 default-features = true
-features = ["runtime-tokio-rustls"]
+features = ["runtime-tokio-rustls", "macro"]
 optional = true
 
 [dev-dependencies.rocket]
